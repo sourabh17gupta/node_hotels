@@ -12,7 +12,7 @@ app.get('/idli',function(req,res){
 const personRoutes=require('./routes/personRoutes');
 const menuRoutes=require('./routes/menuRoutes');
 //use the router
-app.use('/person',personR0outes);
+app.use('/person',personRoutes);
 app.use('/menus',menuRoutes);
-app.listen(3200,()=>
+app.listen(3000,()=>
 console.log('server is ON'))//this is just like room number to find somewon 
